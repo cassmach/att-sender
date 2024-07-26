@@ -503,7 +503,7 @@ const TicketListItemCustom = ({ handleChangeTab, ticket }) => {
                                 )}
                                 <span className={classes.secondaryContentSecond} >
                                     {ticket?.whatsapp ? <Badge className={classes.connectionTag}>{ticket.whatsapp?.name.toUpperCase()}</Badge> : <br></br>}
-                                    {<Badge sx={{ backgroundColor: ticket.queue?.color || "#7c7c7c" }} className={classes.connectionTag}>{ticket.queueId ? ticket.queue?.name.toUpperCase() : ticket.status === "lgpd" ? "LGPD": "SEM FILA"}</Badge>}
+                                    {<Badge sx={{ backgroundColor: ticket.queue?.color || "#7c7c7c" }} className={classes.connectionTag}>{ticket.queueId ? ticket.queue?.name.toUpperCase() : ticket.status === "lgpd" ? "LGPD": "SIN FILA"}</Badge>}
                                     {ticket?.user && (<Badge sx={{ backgroundColor: "#000000" }} className={classes.connectionTag}>{ticket.user?.name.toUpperCase()}</Badge>)}
                                 </span>
                                 <span className={classes.secondaryContentSecond} >

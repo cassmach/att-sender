@@ -636,7 +636,7 @@ const MessageInput = ({ ticketId, ticketStatus, currentTicketId, droppedFiles, t
     setLoading(true);
 
     const userName = privateMessage
-      ? `${user.name} - Mensagem Privada`
+      ? `${user.name} - Mensaje Privado`
       : user.name;
 
     const sendMessage = inputMessage.trim();

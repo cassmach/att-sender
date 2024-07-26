@@ -608,7 +608,7 @@ const MessageInputCustom = (props) => {
     if (inputMessage.trim() === "") return;
     setLoading(true);
 
-    const userName = privateMessage ? `${user.name} - Mensagem Privada`: user.name;
+    const userName = privateMessage ? `${user.name} - Mensaje Privado`: user.name;
 
     const message = {
       read: 1,
