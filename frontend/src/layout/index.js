@@ -543,18 +543,15 @@ const LoggedInLayout = ({ children, themeToggle }) => {
               </>
             )}
           </Typography>
-		  
 
-         {/* DESABILITADO POIS TEM BUGS
-		 {userToken === "enabled" && user?.companyId === 1 && (
+          {userToken === "enabled" && user?.companyId === 1 && (
             <Chip
               className={classes.chip}
               label={i18n.t("mainDrawer.appBar.user.token")}
             />
           )}
-            */}
-			
-			
+
+          {/* DESABILITADO POIS TEM BUGS */}
           {/* <UserLanguageSelector /> */}
           {/* <SoftPhone
             callVolume={33} //Set Default callVolume
@@ -605,7 +602,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
               onClick={handleMenu}
             >
               <Avatar
-                alt="Whaticket"
+                alt="Multi100"
                 className={classes.avatar2}
                 src={profileUrl}
               />
