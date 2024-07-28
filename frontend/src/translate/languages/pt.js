@@ -49,7 +49,7 @@ const messages = {
           expiration: "Sua assinatura expira em",
           days: "dias!",
           day: "dia!",
-          expirationToday: "Sua assinatura expira hora!",
+          expirationToday: "Sua assinatura expira hoje!",
         },
         token: "Token",
       },
@@ -61,7 +61,7 @@ const messages = {
         },
         charts: {
           perDay: {
-            title: "Atendimentos Hora: ",
+            title: "Atendimentos hoje: ",
           },
         },
         cards: {
@@ -458,7 +458,7 @@ const messages = {
           termsLGDP: "Termos LGPD aceito em:",
           allTicket: "Visualizar chamados sem fila",
           allowGroup: "Permitir grupos",
-          whatsapp: "Conexión origen: "
+          whatsapp: "Conexão Origem: "
         },
         buttons: {
           addExtraInfo: "Adicionar informação",
@@ -803,7 +803,7 @@ const messages = {
       },
       ticketsList: {
         called: "Chamado",
-        today: "Hora",
+        today: "Hoje",
         missedCall: "Chamada de voz/vídeo perdida às",
         pendingHeader: "Aguardando",
         assignedHeader: "Atendendo",
@@ -811,7 +811,7 @@ const messages = {
         noTicketsTitle: "Nada aqui!",
         noTicketsMessage:
           "Nenhum atendimento encontrado com esse status ou termo pesquisado",
-        noQueue: "SIN FILA",
+        noQueue: "Sem Fila",
         buttons: {
           accept: "Aceitar",
           cancel: "Cancelar",

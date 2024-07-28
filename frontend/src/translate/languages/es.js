@@ -71,8 +71,8 @@ const messages = {
           activeAttendants: "Agentes Activos",
           finalized: "Finalizados",
           newContacts: "Nuevos Contactos",
-          totalReceivedMessages: "Total de Mensajes Recibidos",
-          totalSentMessages: "Total de Mensajes Enviados",
+          totalReceivedMessages: "Total de Mensajes Recibidas",
+          totalSentMessages: "Total de Mensajes Enviadas",
           averageServiceTime: "T.P. de Atención",
           averageWaitingTime: "T.P. de Espera",
           status: "Status (Actual)",
@@ -818,7 +818,7 @@ const messages = {
         },
         acceptModal: {
           title: "Aceptar Chat",
-          queue: "Seleccionar fila",
+          queue: "Seleccionar tag",
         },
       },
       newTicketModal: {
@@ -856,7 +856,7 @@ const messages = {
           ratings: "Regist. Evaluaciones",
           helps: "Ayuda",
           messagesAPI: "API",
-          schedules: "Agenda",
+          schedules: "Programa",
           campaigns: "Campañas",
           annoucements: "Informativos",
           chats: "Chat Interno",
@@ -1048,7 +1048,7 @@ const messages = {
         title: "Kanban",
         searchPlaceholder: "Búsqueda",
         subMenus: {
-          list: "Panel",
+          list: "Admin",
           tags: "Lanes",
         },
       },

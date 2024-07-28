@@ -723,7 +723,7 @@ const MessagesList = ({
               key={`timestamp-${message.id}`}
             >
               <div className={classes.dailyTimestampText}>
-                {today === format(parseISO(messagesList[index].createdAt), "dd/MM/yyyy") ? "HOY" : format(parseISO(messagesList[index].createdAt), "dd/MM/yyyy")}
+                {today === format(parseISO(messagesList[index].createdAt), "dd/MM/yyyy") ? "HOJE" : format(parseISO(messagesList[index].createdAt), "dd/MM/yyyy")}
               </div>
             </span>
           );

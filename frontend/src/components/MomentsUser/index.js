@@ -182,7 +182,7 @@ const DashboardManage = () => {
                   avatar={<Avatar alt={`${group.user.profileImage}`} src={group.user.profileImage? `${backendUrl}/public/company${companyId}/user/${group.user.profileImage}` : null} />}
                   title={(
                     <span>{group?.user?.name || "Pendentes"} <br />
-                      {`Atenciones: ${group.userTickets?.length}`}
+                      {`Atendimentos: ${group.userTickets?.length}`}
                     </span>
                   )}
                 />
@@ -209,7 +209,7 @@ const DashboardManage = () => {
                               </Typography>
                             </div>
                             <Badge className={classes.connectionTag}>{ticket?.whatsapp?.name}</Badge>
-                            <Badge style={{ backgroundColor: ticket.queue?.color || "#7c7c7c" }} className={classes.connectionTag}>{ticket.queue?.name.toUpperCase() || "SIN FILA"}</Badge>
+                            <Badge style={{ backgroundColor: ticket.queue?.color || "#7c7c7c" }} className={classes.connectionTag}>{ticket.queue?.name.toUpperCase() || "SEM FILA"}</Badge>
                           </Fragment>
                         }
                       />
@@ -255,7 +255,7 @@ const DashboardManage = () => {
                     <span>{"Pendentes"}
                       <ReportProblem className={classes.pending} />
                       <div>
-                        Atenciones: {pendingTickets?.length}
+                        Atendimentos: {pendingTickets?.length}
                       </div>
                     </span>
                   )}
@@ -283,7 +283,7 @@ const DashboardManage = () => {
                               </Typography>
                             </div>
                             <Badge className={classes.connectionTag}>{ticket?.whatsapp?.name}</Badge>
-                            <Badge style={{ backgroundColor: ticket.queue?.color || "#7c7c7c" }} className={classes.connectionTag}>{ticket.queue?.name.toUpperCase() || "SIN FILA"}</Badge>
+                            <Badge style={{ backgroundColor: ticket.queue?.color || "#7c7c7c" }} className={classes.connectionTag}>{ticket.queue?.name.toUpperCase() || "SEM FILA"}</Badge>
                           </Fragment>
                         }
                       />
